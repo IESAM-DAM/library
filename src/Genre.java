@@ -23,7 +23,7 @@ public class Genre {
         return description;
     }
 
-    public void setDescription(String desc) {
-        description = desc;
+    public void setDescription(String description) {
+        description = description;
     }
 }
