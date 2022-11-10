@@ -24,6 +24,6 @@ public class Genre {
     }
 
     public void setDescription(String description) {
-        description = description;
+        this.description = description;
     }
 }
