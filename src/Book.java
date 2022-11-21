@@ -5,43 +5,44 @@ public class Book {
     private Author author;
     private Genre genre;
 
-    public void setIsbn(String isbn) {
-        this.isbn = isbn;
-    }
 
     public String getIsbn() {
-        return this.isbn;
+        return isbn;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
 
     public String getTitle() {
         return title;
     }
 
-    public void setPublishedDate(String publishedDate) {
-        this.publishedDate = publishedDate;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getPublishedDate() {
         return publishedDate;
     }
 
-    public void setAuthor(Author author) {
-        this.author = author;
+    public void setPublishedDate(String publishedDate) {
+        this.publishedDate = publishedDate;
     }
 
     public Author getAuthor() {
         return author;
     }
 
-    public void setGenre(Genre genre) {
-        this.genre = genre;
+    public void setAuthor(Author author) {
+        this.author = author;
     }
 
     public Genre getGenre() {
         return genre;
+    }
+
+    public void setGenre(Genre genre) {
+        this.genre = genre;
     }
 }
